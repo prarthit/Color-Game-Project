@@ -1,6 +1,7 @@
 body{
 	background-color: #232323;
 	margin: 0;
+	font-family: "Montserrat", "Avenir";
 }
 
 .square{
@@ -9,30 +10,62 @@ body{
 	background: purple;
 	float: left;
 	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
 }
 
 #container{
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 h1{
+	font-weight: normal;
 	color: white;
 	margin: 0;
+	text-align: center;
+	line-height: 1.1;
+	background: steelblue;
+	text-transform: uppercase;
+	padding: 20px 0;
 }
 
 #colorDisplay{
+	font-size: 200%;
 	text-transform: uppercase;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
 }
 
 #stripe{
 	background: white;
+	height: 30px;
+	text-align: center;
 }
 
-.mode,#reset{
+button{
 	text-transform: uppercase;
+	margin: 0;
+	border: 0;
+	outline: none;
+	color: steelblue;
+	font-weight: bold;
+	background: white;
+	height: 100%;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
 }
 
 .selected{
-	background: blue;
+	background: steelblue;
+	color: white;
+}
+
+button:hover{
+	background: steelblue;
+	color: white;
 }

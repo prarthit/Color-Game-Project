@@ -29,6 +29,10 @@ function setUpModebuttons(){
 
 function setUpSquares(){
 	colors = [];
+	document.querySelector("#reset").textContent = "new colors";
+	(document.querySelector("h1")).style.background = "steelblue";
+	msg.textContent = "";
+
 	for(var i=0; i<squares.length; i++){
 		if(i>=numSquares)
 		{
