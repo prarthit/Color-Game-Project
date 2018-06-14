@@ -22,3 +22,15 @@ h1{
 #colorDisplay{
 	text-transform: uppercase;
 }
+
+#stripe{
+	background: white;
+}
+
+.mode,#reset{
+	text-transform: uppercase;
+}
+
+.selected{
+	background: blue;
+}
